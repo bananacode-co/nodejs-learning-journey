@@ -14,7 +14,7 @@ const isDone =()=> new Promise((resolve, reject) => {
 const procedure = ()=>{
     isDone()
     .then(res=>{
-        console.log(res)
+        console.log('1-->',res)
     }).catch(err=>{
         console.log(err)
     })
@@ -23,7 +23,18 @@ const procedure = ()=>{
 //Example of resolving a promise with async,await
 const asyncProcedure =async()=>{
     const done  =  await isDone();
-    console.log(done)
+    console.log('2-->',done)
 }
+
+//Example on how to resolve multiple promises on a single function
+const promiseAll=()=>{
+    const done = [isDone(),isDone()]
+    Promise.all(done).then(res=>{
+        console.log('3-->',res)
+    })
+
+}
+//Functions call
 procedure()
 asyncProcedure()
+promiseAll()
