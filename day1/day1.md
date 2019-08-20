@@ -33,5 +33,6 @@ The integration of npm package manager.
 * https://www.freecodecamp.org/news/the-definitive-node-js-handbook-6912378afc6e/
 * https://www.npmjs.com/
 * https://nodejs.org/es/
+* https://itnext.io/a-quick-practical-use-case-for-es6-generators-building-an-infinitely-repeating-array-49d74f555666
 
  
