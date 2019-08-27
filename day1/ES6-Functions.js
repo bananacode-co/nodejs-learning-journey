@@ -6,6 +6,6 @@ const foo  = function (params) {
 const bar = params=>{
     console.log('Bar')
 }
-
 foo();
 bar();
+

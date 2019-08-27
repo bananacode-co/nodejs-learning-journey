@@ -14,10 +14,11 @@ It's build  mostly on c++ and runs the v8 javascript engine, the core of Google 
 * Is fast and easy to get started.
 * Easy to setup developent eviroment.
 * Small learning curve from the JS experience.
-* When Node.js needs to perform an I/O operation, like reading from the network, access a database or the filesystem, instead of blocking the thread Node.js will resume the operations when the response comes back, instead of wasting CPU cycles waiting.
+* When Node.js needs to perform an I/O operation, like reading from the network, access a database or the filesystem, instead of blocking the thread Node.js will resume the operations when the response comes back, instead of wasting CPU cycles waiting. In other words nodejs can do high througput IO operations compared with threaded systems.
 * This allows Node.js to handle thousands of concurrent connections with a single server without introducing the burden of managing threads concurrency, which would be a major source of bugs.
 * Node.js has a unique advantage because millions of frontend developers that write JavaScript for the browser are now able to run the server-side code and frontend-side code without the need to learn a completely different language.
 * Uses npm as a package manager wich is  used by over 11,000,000 JavaScript developers around the world and around 1055196 modules (2019).
+  
   
 
 ## When does nodejs was born ?
@@ -28,6 +29,10 @@ The creation of the first biggest frameworks on 2010 with the creation of [Expre
 
 The integration of npm package manager.
 
+
+# Javascript language ES5-ES6
+In the folder i write several scripts and one server to show the basic functionality of nodejs and explain some concepts on how is been write javascript a the time of writing this journey .
+This exercises were built without any explanation or expertise so later in the next folders the idea is to get understand nodejs to the core and write javascript for nodejs the mos efficient way
 
 ## **References**
 * https://www.freecodecamp.org/news/the-definitive-node-js-handbook-6912378afc6e/
